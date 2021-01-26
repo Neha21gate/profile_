@@ -155,7 +155,7 @@ const Prof =()=>{
         </Fab>
       </Tooltip>
       
-      <div className="btn"><p>©️2020 <span style={{color:'#038a91'}}>CodeToShine</span> </p></div>
+      <div className="btn"><p>©️2021 <span style={{color:'#038a91'}}>CodeToShine</span> </p></div>
       
 
 </div>
