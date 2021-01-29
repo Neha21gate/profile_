@@ -1,0 +1,133 @@
+body{
+    background-color: #f7d9e5;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .card{
+    display:none;
+    background-color:rgb(216, 211, 211);
+    height: 550px;
+    width: 360px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 5px rgba(44, 44, 43, 0.8);
+    
+  }
+  .info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .name{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f87bab;
+    position: absolute;
+    letter-spacing: 0px;
+    font-weight: 600;
+    top:180px;
+  }
+  
+  .bio{
+    position: absolute;
+    top:250px;
+    color: #858685;
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 28px;
+    font-weight: bold;
+  }
+
+.divider{
+  background-color: #949594;
+  height: 1.5px;
+  width: 50px;
+  position: absolute;
+  top:330px;
+}
+
+  
+  .photo{
+    height: 550px;
+    width: 360px;
+    background-repeat:no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: 1s;
+    -webkit-transition: 1s;
+  }
+
+  .card:hover .photo{
+    transform: scale(0.5,0.35) translateY(-650px);
+    -webkit-transform: scale(0.5,0.35) translateY(-650px);
+    background-size: 100% 150%;
+    background-position: 0px -25px;
+    border-radius: 50%;
+    
+    
+  }
+  #loader{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    font-family: 'Work Sans',sans-serif;
+    color:#262626;
+    font-size: 25px;
+  }
+  
+ 
+  
+  .menu{
+    
+    
+    margin-top:270px;
+    position:absolute;
+    top:80px;
+    border: none;
+    color: white;
+    border-radius: 10%;
+    margin-left: 20px;
+    
+
+  }
+.btn{
+
+position: absolute;
+padding: 10px;
+height: 10px;
+margin-left: 80px;
+top:150px;
+color: #7f8485;
+font-size: 15px;
+}
+
+@media screen and (max-width: 992px) and (min-width:600px)  and (min-height:300px) and (max-height:600px){
+  .card  .photo .name .menu {
+    width: 100%;
+   
+  }
+  
+}
